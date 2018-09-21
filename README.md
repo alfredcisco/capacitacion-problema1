@@ -35,3 +35,36 @@ Y si es un proyecto que ya existe, podemos iniciarlo con: git clone *repositorio
 
 RENAN ROMERO (RENACO)
 ...
+
+
+1. ¿Para qué ayuda el `git stash`?
+
+Para guardar de forma rápida la edición de algún archivo localmente sin necesidad de realizar un commit.
+
+2. ¿Cuál es la diferencia entre `git stash pop` y `git stash apply`?
+
+-Pop: Guarda el stash que se indique en el documento en edición pero elimina el stash de la lista de stash's
+-apply: Guarda el stash que se indique en el documento en edición pero conserva en lista los stash sin eliminarlos
+
+3. ¿Qué significa el modo interactivo del `git rebase`?
+
+Permite interactuar con la herramienta abriendo un editor de texto pre configurado y teniendo varias opciones, una de las que se utilizaron fue la unión de dos commits.
+
+4. ¿Cual es la diferencia entre la shell y la terminal?
+
+Shell viene a ser un interprete de comandos que interactua directamente con el kernel del sistema operativo, mientras que una terminal (pueder ser hardware o software) es un medio para conectarse a la consola donde se puede utilizar Shell
+
+5. ¿Que hace estos comandos?
+
+`git clone` : Clona un repositorio existente
+`git status` : Muestra el estado actual del proyecto en el que estás trabajando
+`git add` : permite trackear, agregar archivos para que sean tomanos en cuenta por git
+`git commit` : Permite confirmar los cambios realizados en el proyecto
+`git push` : Sube los cambios a una rama remota
+`git checkout` : Permite cambiar de rama y descartar cambios en un archivo.
+`git stash`: Permite guardar de forma rápida la edición de algún archivo localmente sin necesidad de realizar un commit.
+`git rebase` : Permite mantener el orden con la unión de commits
+`git merge` : Permite combinar, mezclar cambios de una rama a otra
+`git branch`: Para crear o eliminar ramas, gestionar ramas.
+`git pull` : Permite traer los cambios de la rama remota a la rama local
+
