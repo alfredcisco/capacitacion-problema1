@@ -33,3 +33,5 @@ Por ejemplo esta es una **negrita** jejeje
 Si es que es nuevo se inicializa con: git init
 Y si es un proyecto que ya existe, podemos iniciarlo con: git clone *repositorio*
 
+RENAN ROMERO (RENACO)
+...
